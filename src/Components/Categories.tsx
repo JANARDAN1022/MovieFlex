@@ -17,7 +17,7 @@ const Categories = () => {
 const FetchCategoryMovies = useCallback(async()=>{
     if(category){
     try {
-        const response = await fetch('/src/movie.json'); 
+        const response = await fetch('/movie.json'); 
         const data:Movie[] = await response.json();
         if(data){
             const FilteredMovies = data.filter((movie)=>movie.genre===category);
