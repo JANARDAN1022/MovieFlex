@@ -68,7 +68,7 @@ const MovieSlider = ({Movies}:MovieSliderProps) => {
         };
     }, []);
     
-
+console.log(slidesToScroll);
 
    
 
@@ -84,7 +84,8 @@ const MovieSlider = ({Movies}:MovieSliderProps) => {
         className='w-full'
   infinite={true}
   slidesToShow={slidesToScroll}
-  slidesToScroll={2}
+  slidesToScroll={slidesToScroll}
+  speed={800}
    
   prevArrow={<PrevArrow />}
   nextArrow={<NextArrow />}

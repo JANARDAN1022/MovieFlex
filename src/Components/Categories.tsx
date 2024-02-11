@@ -79,7 +79,7 @@ const HandleLoadMore = ()=>{
 }
 
   return (
-    <div className='h-screen flex flex-col overflow-x-auto  gap-2 pb-10'>
+    <div className='h-screen flex flex-col   gap-2 pb-10'>
     <div className='w-full'>
     <Navbar Movies={GenreMovies} Placeholder={`Search ${category} Movies`}/>
     </div>
