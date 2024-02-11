@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-zinc-900 h-full overflow-x-hidden;
+  
+  }
+
+::-webkit-scrollbar {
+  width: 10px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e50914; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Roundness of the scrollbar handle */
+}
+
+
+::-webkit-scrollbar-track {
+  background: #000; /* Color of the scrollbar track */
+}
+
+
+::-webkit-scrollbar-corner {
+  background: #000; /* Color of the scrollbar corner */
+}

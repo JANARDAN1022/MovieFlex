@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Inception",
+      "release_date": "2010-07-16",
+      "ratings": 8.8,
+      "duration": 148,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Mad Max: Fury Road",
+      "release_date": "2015-05-15",
+      "ratings": 8.1,
+      "duration": 120,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Die Hard",
+      "release_date": "1988-07-15",
+      "ratings": 8.2,
+      "duration": 132,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "John Wick",
+      "release_date": "2014-10-24",
+      "ratings": 7.4,
+      "duration": 101,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "The Dark Knight",
+      "release_date": "2008-07-18",
+      "ratings": 9.0,
+      "duration": 152,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Gladiator",
+      "release_date": "2000-05-05",
+      "ratings": 8.5,
+      "duration": 155,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/636px-Sintel_poster.jpg?20100924173149"
+    },
+    {
+      "name": "The Matrix",
+      "release_date": "1999-03-31",
+      "ratings": 8.7,
+      "duration": 136,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "image":"https://mango.blender.org/wp-content/uploads/2013/05/01_thom_celia_bridge.jpg"
+    },
+    {
+      "name": "Avengers: Endgame",
+      "release_date": "2019-04-26",
+      "ratings": 8.4,
+      "duration": 181,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Terminator 2: Judgment Day",
+      "release_date": "1991-07-03",
+      "ratings": 8.5,
+      "duration": 137,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Kill Bill: Volume 1",
+      "release_date": "2003-10-10",
+      "ratings": 8.1,
+      "duration": 111,
+      "genre": "Action",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Dumb and Dumber",
+      "release_date": "1994-12-16",
+      "ratings": 7.3,
+      "duration": 107,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Superbad",
+      "release_date": "2007-08-17",
+      "ratings": 7.6,
+      "duration": 113,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Anchorman: The Legend of Ron Burgundy",
+      "release_date": "2004-07-09",
+      "ratings": 7.2,
+      "duration": 94,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Bridesmaids",
+      "release_date": "2011-05-13",
+      "ratings": 6.8,
+      "duration": 125,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "The Grand Budapest Hotel",
+      "release_date": "2014-03-07",
+      "ratings": 8.1,
+      "duration": 100,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Ferris Bueller's Day Off",
+      "release_date": "1986-06-11",
+      "ratings": 7.8,
+      "duration": 103,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Groundhog Day",
+      "release_date": "1993-02-12",
+      "ratings": 8.0,
+      "duration": 101,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "The Hangover",
+      "release_date": "2009-06-05",
+      "ratings": 7.7,
+      "duration": 100,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Napoleon Dynamite",
+      "release_date": "2004-06-11",
+      "ratings": 6.9,
+      "duration": 96,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    },
+    {
+      "name": "Shaun of the Dead",
+      "release_date": "2004-04-09",
+      "ratings": 7.9,
+      "duration": 99,
+      "genre": "Comedy",
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+    }
+  ]
+  
