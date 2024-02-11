@@ -13,7 +13,7 @@ const MoreInfo = () => {
     const FetchMovie = useCallback(async()=>{
         if(MovieName){
           try {
-              const response = await fetch('/src/movie.json'); 
+              const response = await fetch('/movie.json'); 
               const data:Movie[] = await response.json();
               if(data){
                   const FilteredMovie = data.filter((movie)=>movie.name===MovieName);
