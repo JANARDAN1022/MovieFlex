@@ -14,7 +14,7 @@ const Home = () => {
 
     const fetchMovies = useCallback(async () => {
         try {
-          const response = await fetch('/src/movie.json'); 
+          const response = await fetch('/movie.json'); 
           const data = await response.json();
          setMovies(data as Movie[]);
         } catch (error) {
