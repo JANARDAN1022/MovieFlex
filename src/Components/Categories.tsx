@@ -81,7 +81,7 @@ const Categories = () => {
   };
 
   return (
-    <div className="h-screen flex flex-col   gap-2 pb-10">
+    <div className="h-screen flex flex-col  pb-10">
       <div className="w-full">
         <Navbar
           Movies={GenreMovies}
