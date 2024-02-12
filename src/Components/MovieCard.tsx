@@ -1,4 +1,4 @@
-import { useState,useRef } from "react";
+import { useState,useRef,useEffect } from "react";
 import { Movie } from "../Types/Movie"
 import { MdOutlineStar } from "react-icons/md";
 import {BsFillPlayFill} from 'react-icons/bs';
@@ -15,13 +15,11 @@ const MovieCard = ({Movie}:MovieCardProps) => {
   const [MovieHovered,setMovieHovered]=useState('');
   const Navigate = useNavigate();
   const InfoVidRef = useRef<HTMLVideoElement>(null);
+  const VideoPreview = Movie.video + '#t=15';
 
 const onHoverIn = ()=>{
   setisHovered(true);
   setMovieHovered(Movie.name)
-  if(InfoVidRef && InfoVidRef.current){
-    InfoVidRef.current.currentTime = 15;
-  }
 }
 
 const onHoverOut = ()=>{
@@ -29,18 +27,42 @@ const onHoverOut = ()=>{
       setMovieHovered('');
 }
 
+useEffect(() => {
+  const handleTimeUpdate = () => {
+    if(InfoVidRef && InfoVidRef.current){
+    if (InfoVidRef.current.currentTime > 29) {
+      InfoVidRef.current.currentTime = 15;
+    }
+  };
+}
+  if (isHovered) {
+    InfoVidRef.current && InfoVidRef.current.addEventListener('timeupdate', handleTimeUpdate);
+  } else {
+    InfoVidRef.current && InfoVidRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+  }
+  
+  return () => {
+    InfoVidRef.current && InfoVidRef.current.removeEventListener('timeupdate', handleTimeUpdate);
+  };
+}, [isHovered]);
+
+
+
   return (
-    <div onMouseEnter={onHoverIn} onMouseLeave={onHoverOut} className={` transition-all ease-in-out opacity-70 hover:opacity-100   bg-black text-white relative   ml-[2px] rounded-md `}>
+    <div onMouseEnter={onHoverIn} onMouseLeave={onHoverOut} className={` transition-all  ease-in-out opacity-70 hover:opacity-100   bg-black text-white relative   ml-[2px] rounded-md `}>
     {!isHovered && MovieHovered!==Movie.name?
-    <img onClick={()=>Navigate(`/watch/${Movie.name}`)} src={Movie.image} alt='MovieThumbnail' className='cursor-pointer w-full min-h-[120px] h-max max-h-[120px]  object-cover' />
+    <div style={{ 
+      backgroundImage: `url(${Movie.image})` 
+    }} className="flex h-[150px] bg-cover">
+     </div>
      :
      <video 
      ref={InfoVidRef}
      autoPlay
      muted 
-     src={Movie.video}
+     src={VideoPreview}
      onClick={()=>Navigate(`/watch/${Movie.name}`)}
-     className="min-w-full h-[120px]  object-cover cursor-pointer"
+     className="min-w-full select-none h-[150px]  object-cover cursor-pointer"
      />
   }
            <div className="flex flex-col justify-between gap-2 py-4 px-6 w-full items-center">

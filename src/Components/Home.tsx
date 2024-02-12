@@ -112,7 +112,7 @@ const Home = () => {
       </>
       :
       
-    <div className={` ${searchResults.length>3?'h-max':'h-screen'} w-full  p-10`}>
+    <div className={` ${searchResults.length>3?'h-max':'h-screen'} w-full  px-10 py-16`}>
       {searchResults.length===0?
       <div className='w-full flex justify-center items-center h-full'>
         <span className='text-white font-bold text-xl'>No Movies Found</span>

@@ -42,9 +42,9 @@ const MovieBanner = ({Movie}:MovieBannerProps) => {
     
   return (
     Movie ?
-    <div className="relative h-full min-h-[300px] md:min-h-[600px] md:max-h-[600px] ">
+    <div className="relative h-full min-h-[300px] md:min-h-[600px] md:max-h-[700px] ">
  <video
- className='w-full relative  h-full md:h-full  lg:h-auto object-cover brightness-[50%]' 
+ className='w-full relative  h-[400px] sm:h-[500px] md:h-[700px]  lg:h-[700px] object-cover brightness-[50%]' 
  autoPlay
  loop
  muted
@@ -52,7 +52,7 @@ poster={Movie.image}
 src={Movie.video}/>
 
  
-   <div className='absolute top-[30%] md:top-[30%] ml-4 md:ml-16'>
+   <div className='absolute top-[50%] sm:top-[40%] md:top-[30%] ml-4 md:ml-16'>
    <p className='text-white  text-base sm:text-xl md:text-5xl h-full w-[50%] lg:text-6xl font-bold drop-shadow-xl'>
    {Movie.name}
    </p>
@@ -70,7 +70,7 @@ src={Movie.video}/>
    </div>
    
    
-   <div  className={`${showInfo?'visible':'hidden'} absolute top-20 md:top-36 left-0 md:left-[8%] lg:left-[25%] w-full  md:max-w-2xl lg:max-w-3xl h-max  z-[1000px] `}>
+   <div  className={`${showInfo?'visible':'hidden'} absolute top-20 md:top-36 left-0 md:left-[8%] lg:left-[20%] min-[1173px]:left-[25%] w-full  md:max-w-2xl lg:max-w-3xl h-max  z-[9999] `}>
 
    
     <video  className='
@@ -83,7 +83,7 @@ src={Movie.video}/>
     <MdOutlineCancel size={50} className='cursor-pointer text-white absolute z-20 top-0 right-3' onClick={()=>{
       setshowInfo(false)
       }}/> 
-    <span className='bg-black rounded-md py-1 px-4 text-xs absolute bottom-5 right-5 text-white  '>{formatDuration(Movie.duration)}</span>
+    <span className='bg-black rounded-md py-1 px-4 text-xs absolute bottom-2 sm:bottom-5 right-5 text-white  '>{formatDuration(Movie.duration)}</span>
  
    <div className='
     bg-zinc-800 p-2 lg:p-4 absolute 

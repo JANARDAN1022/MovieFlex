@@ -68,8 +68,8 @@
       "ratings": 8.4,
       "duration": 181,
       "genre": "Action",
-      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/636px-Sintel_poster.jpg?20100924173149"
     },
     {
       "name": "Terminator 2: Judgment Day",
@@ -90,13 +90,13 @@
       "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
     },
     {
-      "name": "Dumb and Dumber",
+      "name": "Sintel",
       "release_date": "1994-12-16",
       "ratings": 7.3,
       "duration": 107,
       "genre": "Comedy",
-      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/636px-Sintel_poster.jpg?20100924173149"
     },
     {
       "name": "Superbad",
@@ -122,9 +122,9 @@
       "ratings": 6.8,
       "duration": 125,
       "genre": "Comedy",
-      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "image":"https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Screen.png"
-    },
+      "video":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/636px-Sintel_poster.jpg?20100924173149"
+      },
     {
       "name": "The Grand Budapest Hotel",
       "release_date": "2014-03-07",

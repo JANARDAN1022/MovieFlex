@@ -31,13 +31,13 @@ const MovieSlider = ({Movies}:MovieSliderProps) => {
     
     const PrevArrow = (props:any) => (
         <button {...props}  className="slick-arrow slick-prev">
-          <AiOutlineArrowLeft className={`text-white cursor-pointer p-1 top-0 left-[-2px] absolute z-[100] w-10 bg-[rgba(0,0,0,0.7)] min-h-full  `}  />
+          <AiOutlineArrowLeft className={`text-white cursor-pointer p-1 top-0 left-[-2px] absolute z-[100] w-10 bg-[rgba(0,0,0,0.7)] h-[90%] max-h-full  `}  />
         </button>
       );
       
       const NextArrow = (props:any) => (
         <button {...props} className="slick-arrow slick-next">
-          <AiOutlineArrowRight className={`text-white cursor-pointer  absolute z-[1] p-1 w-10 bg-[rgba(0,0,0,0.7)] h-full right-[-2px] top-0 `} />
+          <AiOutlineArrowRight className={`text-white cursor-pointer  absolute z-[1] p-1 w-10 bg-[rgba(0,0,0,0.7)] h-[90%] right-[-2px] top-0 `} />
         </button>
       );
    
@@ -68,7 +68,7 @@ const MovieSlider = ({Movies}:MovieSliderProps) => {
         };
     }, []);
     
-console.log(slidesToScroll);
+
 
    
 
@@ -81,7 +81,7 @@ console.log(slidesToScroll);
          <Link to={`/Category/${Movies[0].genre}`} className={`${Path.includes('/Category')?'hidden':''} text-sm max-[375px]:text-xs max-[300px]:text-[8px] border bg-white w-max gap-2 opacity-70 hover:opacity-100 flex items-center text-black rounded-md px-2 `}>Explore {Movies[0].genre} Movies <AiOutlinePlus size={18} className='mt-1'/> </Link>
         </p>
         <Slider
-        className='w-full'
+        className='w-full  h-max max-h-[310px]'
   infinite={true}
   slidesToShow={slidesToScroll}
   slidesToScroll={slidesToScroll}
