@@ -95,7 +95,7 @@ const Home = () => {
   };
 
   return Movies ? (
-    <div className="h-screen  flex flex-col  gap-2 ">
+    <div className="h-screen  flex flex-col">
       <div className="w-full">
         <Navbar Movies={Movies} />
       </div>
