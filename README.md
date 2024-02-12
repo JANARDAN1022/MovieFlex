@@ -7,7 +7,7 @@ This Project is a Netflix-Style Streamign UI With following Features:-
 
 3) Search Functionality With Pagination
 
-4) Navigation Betwwen Categories(Action,Comedy) and Search Based on Specific Genre
+4) Navigation Between Categories(Action,Comedy) and Search Based on Specific Genre
 
 5) Responsive Design/UI
 
